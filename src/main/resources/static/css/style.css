@@ -1,0 +1,68 @@
+@charset "ISO-8859-1";
+
+
+
+
+
+main{
+	margin: 8vw 10vw;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+	
+}
+
+.link{
+	color: DodgerBlue;
+	background-color: transparent;
+	border: none;
+    padding: 0 2vw;
+    margin: 3vw;
+    font-size: 26px;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.link:hover{
+	color: RoyalBlue;
+}
+
+.logout{
+	color: white;
+	background-color: DarkRed;
+	border: none;
+    padding: 0 2vw;
+    margin: 3vw;
+    font-size: 26px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.logout:hover{
+	background-color: Maroon;
+}
+
+.blue{
+	color: DarkCyan;
+	font-size: 4vw;
+}
+
+.green{
+	color: ForestGreen;
+	font-size: 4vw;
+}
+
+p{
+	font-size: 26px;
+}
+
+span{
+	color: DodgerBlue;
+    font-size: 26px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+span:hover{
+	color: RoyalBlue;
+}
